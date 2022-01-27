@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href="drawing-brush-logo-png-paint-brush-drawing-11563274772prfhbugayr.png"  type = "image/x-icon"> 
+    <title>Design</title>
+</head>
+<body>
+    <div>
+        <p id="top">Make Your Design Here</p>
+    </div>
+    <canvas  id="canvas" width="800" height="800"></canvas>
+    <div class="toolbox">
+        <button id="decrease" onclick=sdecrease();>-</button>
+        <span id="size">10</span>
+        <button id="increase" onclick=sincrease();>+</button>
+        <input type="color" id="color">
+        <button id="clear" >X</button>
+    </div>
+    <p>Get Pre made designs</p>
+    <div id="Getdesigns">
+    <button id="gethome" onclick=gethome()>House</button> 
+    <button id="getcircle" onclick=getcircle()>Circle</button>
+    </div>
+     
+    <script src="canvas.js"></script>
+</body>
+
+</html>
